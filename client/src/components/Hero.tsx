@@ -40,8 +40,9 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-[1.1]"
         >
-          {t("hero.title")} <br className="hidden md:block" />
-          <span className="text-gradient">futures</span>
+          {t("hero.titleStart")}{" "}
+          <span className="text-gradient">{t("hero.titleHighlight")}</span>
+          {t("hero.titleEnd") ? ` ${t("hero.titleEnd")}` : ""}
         </motion.h1>
 
         <motion.p 

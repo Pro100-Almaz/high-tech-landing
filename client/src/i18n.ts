@@ -20,7 +20,9 @@ const resources = {
       },
       hero: {
         badge: "Global Software Engineering Agency",
-        title: "We architect the digital",
+        titleStart: "We architect the digital",
+        titleHighlight: "future",
+        titleEnd: "",
         description: "Transforming visionary ideas into premium, scalable software solutions. We build the technology that drives modern industry forward.",
         cta: "View Our Work",
         scroll: "Scroll"
@@ -90,7 +92,9 @@ const resources = {
       },
       hero: {
         badge: "Глобальное агентство инженерии программного обеспечения",
-        title: "Мы архитектируем цифровое будущее",
+        titleStart: "Мы архитектируем цифровое",
+        titleHighlight: "будущее",
+        titleEnd: "",
         description: "Превращение амбициозных идей в премиум-решения масштабируемого ПО. Мы создаём технологии, которые движут современную промышленность вперёд.",
         cta: "Смотреть портфолио",
         scroll: "Прокрутить"
@@ -160,7 +164,9 @@ const resources = {
       },
       hero: {
         badge: "Жаһандық бағдарламалық инженерлік агенттік",
-        title: "Біз цифрлық болашақты қалыптастырамыз",
+        titleStart: "Біз цифрлық",
+        titleHighlight: "болашақты",
+        titleEnd: "қалыптастырамыз",
         description: "Жаңашыл идеяларды премиум, масштабталатын бағдарламалық шешімдерге айналдыру. Біз қазіргі заманауи индустрияны алға апаратын технологияларды құраймыз.",
         cta: "Портфолиомызды қарау",
         scroll: "Айналдыру"
