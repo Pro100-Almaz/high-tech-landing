@@ -20,7 +20,7 @@ const resources = {
       },
       hero: {
         badge: "Global Software Engineering Agency",
-        title: "We architect the digital future",
+        title: "We architect the digital",
         description: "Transforming visionary ideas into premium, scalable software solutions. We build the technology that drives modern industry forward.",
         cta: "View Our Work",
         scroll: "Scroll"
