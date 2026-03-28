@@ -14,6 +14,7 @@ const resources = {
         email: "q19.almaz@gmail.com"
       },
       nav: {
+        about: "About",
         services: "Services",
         portfolio: "Portfolio",
         talk: "Let's Talk"
@@ -67,6 +68,63 @@ const resources = {
         required: "This field is required",
         invalidEmail: "Please enter a valid email address"
       },
+      about: {
+        subtitle: "Who's behind the work",
+        title: "About Me",
+        bio: "Backend-focused software engineer with 4+ years of experience building scalable APIs, data pipelines, and distributed systems. Computer Science graduate from Nazarbayev University.",
+        educationLabel: "Education",
+        skillsLabel: "Technical Skills",
+        connectLabel: "Connect",
+        experienceLabel: "Experience",
+        skillCategories: {
+          languages: "Languages",
+          frameworks: "Frameworks",
+          tools: "Tools & Infrastructure"
+        },
+        experience: [
+          {
+            company: "Investlink Ltd.",
+            role: "Backend Developer",
+            period: "June 2025 – Present",
+            location: "Almaty, Kazakhstan",
+            bullets: [
+              "Built a fault-tolerant market-data ingestion pipeline from Alpaca (SSE/webhooks); sustained 25k events/min with gap detection + replay.",
+              "Optimized PostgreSQL for time-series reads; reduced heavy-query latency by 55% and CPU by 30%.",
+              "Hardened API security with JWT/OAuth2, RBAC, per-tenant rate limits; blocked 20% unauthorized requests."
+            ]
+          },
+          {
+            company: "Intelligent Punks",
+            role: "Backend / ML Developer",
+            period: "Feb 2025 – Jun 2025",
+            location: "Cyprus, Remote",
+            bullets: [
+              "Designed Python microservices (FastAPI/DRF) across 4+ services; load-tested peak of 12k req/s.",
+              "Built async PostgreSQL data layer with SQLAlchemy + asyncpg; sustained 2.5k QPS and cut heavy report times by 23%."
+            ]
+          },
+          {
+            company: "Q19",
+            role: "Backend Developer",
+            period: "May 2023 – Apr 2024",
+            location: "Astana, Kazakhstan",
+            bullets: [
+              "Built and shipped REST APIs using async Python (Sanic) for 1,000+ users.",
+              "Integrated Telegram bot and website with backend; implemented background jobs with Celery and Redis."
+            ]
+          },
+          {
+            company: "PythonRPA",
+            role: "Fullstack Developer",
+            period: "Nov 2021 – Apr 2023",
+            location: "Almaty, Kazakhstan",
+            bullets: [
+              "Improved CSV entity-matching with Levenshtein distance; cut runtime by 14% and improved accuracy by 17.4%.",
+              "Built data-processing pipelines with pandas to process 10,000+ labor records."
+            ]
+          }
+        ]
+      },
       footer: {
         rights: "All rights reserved.",
         privacy: "Privacy Policy",
@@ -86,6 +144,7 @@ const resources = {
         email: "q19.almaz@gmail.com"
       },
       nav: {
+        about: "Обо мне",
         services: "Услуги",
         portfolio: "Портфолио",
         talk: "Давайте обсудим"
@@ -139,6 +198,63 @@ const resources = {
         required: "Это поле обязательно",
         invalidEmail: "Пожалуйста, введите корректный адрес электронной почты"
       },
+      about: {
+        subtitle: "Кто за этим стоит",
+        title: "Обо мне",
+        bio: "Backend-разработчик с 4+ годами опыта в построении масштабируемых API, конвейеров данных и распределённых систем. Выпускник Назарбаев Университета по специальности «Информатика».",
+        educationLabel: "Образование",
+        skillsLabel: "Технические навыки",
+        connectLabel: "Связаться",
+        experienceLabel: "Опыт работы",
+        skillCategories: {
+          languages: "Языки",
+          frameworks: "Фреймворки",
+          tools: "Инструменты и инфраструктура"
+        },
+        experience: [
+          {
+            company: "Investlink Ltd.",
+            role: "Backend-разработчик",
+            period: "Июнь 2025 – настоящее время",
+            location: "Алматы, Казахстан",
+            bullets: [
+              "Создал отказоустойчивый конвейер ingestion данных от Alpaca (SSE/webhooks); выдержал 25k событий/мин с функцией обнаружения пробелов и повторной воспроизводки.",
+              "Оптимизировал PostgreSQL для чтения временных рядов; снизил задержку тяжёлых запросов на 55%, CPU на 30%.",
+              "Усилил безопасность API: JWT/OAuth2, RBAC, лимиты на тенант; заблокировал 20% несанкционированных запросов."
+            ]
+          },
+          {
+            company: "Intelligent Punks",
+            role: "Backend / ML-разработчик",
+            period: "Фев 2025 – Июнь 2025",
+            location: "Кипр, удалённо",
+            bullets: [
+              "Разработал Python-микросервисы (FastAPI/DRF) для 4+ сервисов; нагрузочное тестирование — пик 12k запросов/сек.",
+              "Построил асинхронный слой данных PostgreSQL с SQLAlchemy + asyncpg; 2.5k QPS, ускорение тяжёлых отчётов на 23%."
+            ]
+          },
+          {
+            company: "Q19",
+            role: "Backend-разработчик",
+            period: "Май 2023 – Апр 2024",
+            location: "Астана, Казахстан",
+            bullets: [
+              "Разработал REST API на async Python (Sanic) для 1,000+ пользователей.",
+              "Интегрировал Telegram-бот и сайт с backend-сервисами; фоновые задачи через Celery и Redis."
+            ]
+          },
+          {
+            company: "PythonRPA",
+            role: "Fullstack-разработчик",
+            period: "Ноя 2021 – Апр 2023",
+            location: "Алматы, Казахстан",
+            bullets: [
+              "Улучшил сопоставление CSV-сущностей с расстоянием Левенштейна: время выполнения −14%, точность +17.4%.",
+              "Создал конвейеры обработки данных с pandas для 10,000+ записей."
+            ]
+          }
+        ]
+      },
       footer: {
         rights: "Все права защищены.",
         privacy: "Политика конфиденциальности",
@@ -158,6 +274,7 @@ const resources = {
         email: "q19.almaz@gmail.com"
       },
       nav: {
+        about: "Мен туралы",
         services: "Қызметтер",
         portfolio: "Портфолио",
         talk: "Сөйлесейік"
@@ -210,6 +327,63 @@ const resources = {
         error: "Жіберуде қате болды. Қайтадан көріңіз.",
         required: "Бұл өріс міндетті",
         invalidEmail: "Жарамды электрондық пошта мекенжайын енгізіңіз"
+      },
+      about: {
+        subtitle: "Жұмыстың артындағы кім",
+        title: "Мен туралы",
+        bio: "4+ жылдық тәжірибесі бар backend бағытындағы бағдарламалық инженер: масштабталатын API, деректер конвейерлері және таратылған жүйелер. Назарбаев университетінің компьютерлік ғылымдар бойынша түлегі.",
+        educationLabel: "Білім",
+        skillsLabel: "Техникалық дағдылар",
+        connectLabel: "Байланыс",
+        experienceLabel: "Жұмыс тәжірибесі",
+        skillCategories: {
+          languages: "Тілдер",
+          frameworks: "Фреймворктер",
+          tools: "Құралдар және инфрақұрылым"
+        },
+        experience: [
+          {
+            company: "Investlink Ltd.",
+            role: "Backend әзірлеуші",
+            period: "Маусым 2025 – қазіргі уақытқа дейін",
+            location: "Алматы, Қазақстан",
+            bullets: [
+              "Alpaca-дан (SSE/webhooks) деректерді жинау конвейерін жасады; минутына 25k оқиғаны ұстады.",
+              "PostgreSQL уақыт қатарын оқуды оңтайландырды; ауыр сұраныстар кідірісін 55%-ға, CPU-ды 30%-ға азайтты.",
+              "API қауіпсіздігін күшейтті: JWT/OAuth2, RBAC; рұқсатсыз сұраныстардың 20%-ын блоктады."
+            ]
+          },
+          {
+            company: "Intelligent Punks",
+            role: "Backend / ML әзірлеуші",
+            period: "Ақп 2025 – Мау 2025",
+            location: "Кипр, қашықтан",
+            bullets: [
+              "4+ қызмет үшін Python микросервистерін (FastAPI/DRF) жасады; пик — 12k сұраныс/сек.",
+              "SQLAlchemy + asyncpg көмегімен асинхронды PostgreSQL деректер қабатын жасады; 2.5k QPS, ауыр есептер 23%-ға жеделдеді."
+            ]
+          },
+          {
+            company: "Q19",
+            role: "Backend әзірлеуші",
+            period: "Мам 2023 – Сәу 2024",
+            location: "Астана, Қазақстан",
+            bullets: [
+              "1,000+ пайдаланушы үшін async Python (Sanic) арқылы REST API жасады.",
+              "Telegram-бот пен сайтты backend-пен біріктірді; Celery және Redis арқылы фондық тапсырмалар."
+            ]
+          },
+          {
+            company: "PythonRPA",
+            role: "Fullstack әзірлеуші",
+            period: "Қар 2021 – Сәу 2023",
+            location: "Алматы, Қазақстан",
+            bullets: [
+              "Левенштейн қашықтығымен CSV сәйкестендіруді жақсартты: орындалу уақыты −14%, дәлдік +17.4%.",
+              "10,000+ еңбек жазбасын өңдеуге арналған pandas конвейерлерін жасады."
+            ]
+          }
+        ]
       },
       footer: {
         rights: "Барлық құқықтар сақталған.",

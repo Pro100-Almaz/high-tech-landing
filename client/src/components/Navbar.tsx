@@ -47,6 +47,7 @@ export function Navbar() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="hidden md:flex items-center gap-8"
         >
+          <a href="#about" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t("nav.about")}</a>
           <a href="#services" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t("nav.services")}</a>
           <a href="#portfolio" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t("nav.portfolio")}</a>
           
